@@ -1,0 +1,15 @@
+.header {
+    background-color: #37474F;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.menuLink {
+    color: #E8F5E9;
+    margin-right: 50px;
+}
+
+.menuLink img {
+    width: 50px;
+}

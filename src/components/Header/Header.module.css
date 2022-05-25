@@ -5,11 +5,15 @@
     padding: 5px 20px;
 }
 
-.menuLink {
+.header a{
     color: #E8F5E9;
     margin-right: 50px;
 }
 
-.menuLink img {
+.header a img {
     width: 50px;
+}
+
+.activeLink {
+    color: #00C853;
 }

@@ -1,0 +1,13 @@
+.span {
+    color: #00C853;
+}
+
+.li {
+    display: flex;
+    list-style-type: -moz-ethiopic-numeric;
+    align-items: center;
+}
+
+.li p {
+    margin-right: 20px;
+}

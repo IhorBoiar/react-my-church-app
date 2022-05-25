@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.block {
+    margin-right: 100px;
+}
+
+.block li {
+    list-style-type: -moz-ethiopic-numeric;
+}
+
+.form {
+    display: block;
+    margin-bottom: 10px;
+    width: 200px;
+    resize: none;
+}
+
+.submitForm {
+    display: block;
+    cursor: pointer;
+}

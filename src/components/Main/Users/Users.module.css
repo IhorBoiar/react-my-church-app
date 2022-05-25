@@ -1,0 +1,51 @@
+.container {
+    margin-bottom: 50px;
+}
+
+.container img {
+    width: 100px;
+}
+
+.userBlock {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.userBlock div {
+    margin-right: 10px;
+}
+
+.userBlock button {
+    cursor: pointer;
+}
+
+.pagination {
+    margin-bottom: 20px;
+    position: absolute;
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+    width: 15%;
+    left: 10%;
+}
+
+.pagination span {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #37474F;
+    border-radius: 50%;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination span.currentPage,
+.pagination span:hover {
+    font-weight: bold;
+    background: red;
+}

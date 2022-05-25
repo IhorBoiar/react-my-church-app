@@ -1,11 +1,12 @@
-import Header from './Header/Header'
+import Header from './components/Header/Header'
+import Main from "./components/Main/Main";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <h1>My Church App</h1>
-    </div>
+      <div className="App">
+        <Header />
+        <Main />
+      </div>
   );
 }
 
